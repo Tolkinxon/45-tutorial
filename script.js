@@ -12,14 +12,14 @@ sum(4,6,8);*/
 
 
 
-// 3 point parameters -> this called Rest parametrs 
+// 3 point parameters -> this called Rest parameters 
 //translation Rest to Uzbek(-qolgani) 
 /*function cars(a,...c){
 
     console.log(c);
 
 }  
-cars(1,2,3,4,5,6,7,8,9); */
+cars(1,2,3,4,5,6,7,8,9); */ 
 //there  will be an array after the run -> [2,3,4,5,6,7,8,9] 
 //function cars(a,...c)  write like that right, a = 1; 
 //function cars(a,...c,b)  write like that wrong, this wrong is b argument   
@@ -77,6 +77,20 @@ console.log(sum2(1,2,3,4,5));*/
 
 //Array.reduce(function(value1, value2){return value1 + value2},125)
 //situation2 - value2 = 125, value2 = 98, 45, 78, 34 
+
+
+
+
+
+//default parameters
+/*function welcome(name = 'User'){
+    console.log("welkome  " + name);
+
+} 
+
+welcome();*/
+//if the argument is empty, the default parameter works
+//that is, it will be so -> welcome User
 
 
 
