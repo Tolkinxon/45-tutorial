@@ -83,12 +83,12 @@ console.log(sum2(1,2,3,4,5));*/
 
 
 //default parameters
-/*function welcome(name = 'User'){
+function welcome(name = 'User'){
     console.log("welkome  " + name);
 
 } 
 
-welcome();*/
+welcome();
 //if the argument is empty, the default parameter works
 //that is, it will be so -> welcome User
 
