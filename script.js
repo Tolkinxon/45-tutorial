@@ -12,15 +12,19 @@ sum(4,6,8);*/
 
 
 
-// 3 point parameters
-/*function cars(...c){
+// 3 point parameters -> this called Rest parametrs 
+//translation Rest to Uzbek(-qolgani) 
+/*function cars(a,...c){
 
     console.log(c);
 
 }  
-cars(1,2,3,4,5,6,7,8,9);*/ 
-//there  will be an array after the run -> [1,2,3,4,5,6,7,8,9]      
-
+cars(1,2,3,4,5,6,7,8,9); */
+//there  will be an array after the run -> [2,3,4,5,6,7,8,9] 
+//function cars(a,...c)  write like that right, a = 1; 
+//function cars(a,...c,b)  write like that wrong, this wrong is b argument   
+//because b argument not avialable
+//the Rest parametr is always set at the end 
 
 
 
@@ -51,12 +55,12 @@ console.log(sum(1,2,3,4,5)); */
 
 
 //Method 2 of calculating the amount  with method reduce()
-function sum2(...c){
+/*function sum2(...c){
 
     return   c.reduce((a, b) => a+b);
 }
 
-console.log(sum2(1,2,3,4,5));
+console.log(sum2(1,2,3,4,5));*/
 // sum2 after the run -> 15
 
 //return  c.reduce((a, b) => a+b,44); -> sum2 after the run -> 59
@@ -72,5 +76,11 @@ console.log(sum2(1,2,3,4,5));
 
 
 //Array.reduce(function(value1, value2){return value1 + value2},125)
-//situation2 - value2 = 125, value2 = 98, 45, 78, 34  
+//situation2 - value2 = 125, value2 = 98, 45, 78, 34 
+
+
+
+
+
+
 
