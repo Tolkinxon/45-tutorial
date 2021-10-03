@@ -1,5 +1,5 @@
 /*
-function sum(a,b){
+function sum(){
 
     console.log(arguments);
 }
